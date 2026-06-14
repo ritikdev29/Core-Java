@@ -1,5 +1,5 @@
 import java.util.*;
-
+// Types of methods (Inherited, Overidding, Specialized)
 class Aeroplane {
     public void takeoff() {
         System.out.println("Airplane is taking off..");
