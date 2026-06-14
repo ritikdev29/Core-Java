@@ -16,7 +16,7 @@ class Desktop implements Computer
         System.out.println("You get 5 errors, Faster");
     }
 }
-class Developer
+class Developer  // devloper can any type of object not problem
 {
     public void buildApp(Computer obj)
     {
