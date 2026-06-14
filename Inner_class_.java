@@ -17,8 +17,9 @@ class A
 public class Inner_class_ {
     public static void main(String[] args) {
         A obj = new A ();
-        A.B obj1 = obj.new B();
-
+        A.B obj1 = obj.new B();  // the B object creted with the help of the A object
+        
+       /*  A.B  obj1 = new A.B();  // this are for static class used  static member is not need object...static method they are used class name */
         obj.show();;
         obj1.display();
         
