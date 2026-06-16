@@ -27,7 +27,7 @@ public class Handling_exception {
       Demo1 obj =new Demo1();
     //   obj.a();   this par this handling
     try {
-        obj.a();
+        obj.a();    // this is ducking part they are forwar main branch
         
     } catch (Exception e) {
         System.out.println("Error");
