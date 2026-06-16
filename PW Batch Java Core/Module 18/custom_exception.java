@@ -1,16 +1,18 @@
 import java.util.Scanner;
+// Custom Exception Class
 
 class SalaryException extends Exception {
-
+    // Constructor jo custom message receive karega
     SalaryException(String message) {
-        super(message);
+        super(message);   // Parent Exception class ko message pass kar raha hai
     }
 }
-
+// Company class
 class Company {
+   // throws => Exception ki responsibility caller ko de raha hai
 
     public void checkSalary(int salary) throws SalaryException {
-
+     // Business Rule: Salary 20000 se kam nahi honi chahiye
         if (salary < 20000) {
             throw new SalaryException("Salary cannot be less than 20000");
         }
