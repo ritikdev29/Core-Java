@@ -16,12 +16,20 @@ public class multiple_catch_block {
 
             
         }
-        finally
-        {
-            sc.close();
+        finally 
+        {                    // finally block always execute
+            sc.close();     // resource close always
         }
         System.out.println(num);   // this output 0
         
     }
     
 }
+
+/*
+Try with resourse  
+ try(Scanner sc= new Scanner (System.in))
+ {
+ num = sc.nextInt();
+ }
+ */
