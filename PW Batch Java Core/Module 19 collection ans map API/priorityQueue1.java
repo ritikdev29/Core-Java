@@ -20,5 +20,7 @@ public class priorityQueue1 {
         pq.add(25);   // duplicates values are allowed----->
 
         System.out.println(pq);   // output =[25, 25, 125, 50, 75, 150, 175, 100]
+    
+      
     }
 }
