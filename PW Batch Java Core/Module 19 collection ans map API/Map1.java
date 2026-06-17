@@ -14,7 +14,7 @@ public class Map1 {
         System.out.println(ht);  // output = {3=Gautam, 2=Rahul, 1=Ritik}
 
 
-        TreeMap tm = new TreeMap<>();
+        TreeMap tm = new TreeMap<>();  // they are given the data output in short order form--> asecding shorted order data
         tm.put(2, "Ritik");
         tm.put(1, "Gautam");
         tm.put(4, "Rahul");
