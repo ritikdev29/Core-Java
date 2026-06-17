@@ -20,7 +20,7 @@ public class hashSet2 {
         hs1.add(30);
         hs1.add(40);
 
-        System.out.println(hs1);
+        System.out.println(hs1);  // ou = [100, 20, 30, 40]
 
     }
     
