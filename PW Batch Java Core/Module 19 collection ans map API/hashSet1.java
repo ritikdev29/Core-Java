@@ -11,7 +11,7 @@ public class hashSet1 {
 
         System.out.println(names);
 
-        // output = [Aman, Ritik]
+        // output = [Aman, Ritik]  Ek hi "Ritik" store hua.
         /*
          * mportant Methods
          * add()
