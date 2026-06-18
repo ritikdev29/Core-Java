@@ -1,12 +1,12 @@
 import java.util.*;
 
-class gen<T> // <T> means typesafety
+class gen<T> // <T> means typesafety ,, or kisi bhi information kai type ko pass kar sakte hai
 
 
 {
    T obj;  // 10 yaha par de rhe hai
 
-   // create constructor
+   // create constructorr
 
    public gen(T obj){
 
@@ -39,8 +39,9 @@ public class generics_03 {
 
         gen<String> g1 = new gen<String>("Rk");
         g1.display();
-        System.out.println(g1.getobj());  // out =type of data is : java.lang.Integer
-                                         //10
+        System.out.println(g1.getobj());  // type of data is : java.lang.String
+
+                                         //Rk
 
        // ArrayList<String> list1  = new ArrayList<String>();
 
