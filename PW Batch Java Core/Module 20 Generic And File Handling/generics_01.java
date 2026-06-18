@@ -15,7 +15,7 @@ public class generics_01 {
         // No safety ---->
 
         // Typesafety achived using generics ---->
-        ArrayList<String> tr = new ArrayList<String>();  // <> this is used for typecasting like String <String>
+        ArrayList<String> tr = new ArrayList<String>();  // <> this is used for typecasting like String <String> ,, yaha par String  type ka hi data store hoga -->
         tr.add("Rk");
         tr.add("GK");
 
