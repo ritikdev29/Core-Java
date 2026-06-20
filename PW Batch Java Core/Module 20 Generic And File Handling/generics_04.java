@@ -29,6 +29,7 @@ public class generics_04 {
         tr1.add("GAUTAM");
         tr1.add("SIDHU");
         tr1.add("ABHAY");
+        tr1.add("Hello");
         System.out.println(tr1);  // 
 
         Collections.sort(tr1);
