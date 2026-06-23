@@ -57,10 +57,10 @@ public class generics_04 {
         Collections.rotate(tr2, 3);
         System.out.println(tr2); // ou = [25, 75, 125, 100, 50, 150]
 
-         //shuffle() method
+         //shuffle() method  , means mixed data-->
 
          Collections.shuffle(tr2);
-         System.out.println("Shuffle data is : " + tr2);
+         System.out.println("Shuffle data is : " + tr2);  // ou = Shuffle data is : [125, 75, 150, 100, 25, 50]
 
 
 
