@@ -1,6 +1,7 @@
 
 import java.util.*;
 
+//Multiple task within single run()
 class MyThread1 extends Thread {
     public void run() {
 
