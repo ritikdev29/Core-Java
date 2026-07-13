@@ -9,7 +9,19 @@ public class Threads_main {
         System.out.println("The main thread is : " + name);
         System.out.println("The periority of main thread is : " + Thread.currentThread().getPriority());// this is
                                                                                                         // directly call
-                                                                                                        // ..
+                                                                                                        // --->
+
+        System.out.println("After changing...");
+        Thread t = Thread.currentThread();
+        t.setName("Rk");
+        t.setPriority(1);
+
+        String name1 = Thread.currentThread().getName();
+        System.out.println("The main thread is : " + name1);
+
+        System.out.println("The periority of main thread is : " + Thread.currentThread().getPriority());// this is
+                                                                                                        // directly call
+                                                                                                        // --->
 
     }
 }
