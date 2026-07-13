@@ -49,14 +49,16 @@ public class create_thread02 {
         Messaj1 m1 = new Messaj1();
         Demo d1 = new Demo();
 
-        Thread t0 = new Thread(d1);
+        // Thread t0 = new Thread(d1);
 
         Thread t1 = new Thread(c1);
         Thread t2 = new Thread(m1);
 
         t1.start();
         t2.start();
-        t0.start();
+
+        // t1.run();
+        // t2.run();
 
     }
 
