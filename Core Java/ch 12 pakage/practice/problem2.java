@@ -19,7 +19,7 @@ class Hycalculator {
     public void calculate (int a, int b) {
         System.out.println("your result : " + a + b);
 
-        System.out.println("your result os : " + Math.sin(a + b));
+        System.out.println("your result os.  : " + Math.sin(a + b));
 
     }
 }
